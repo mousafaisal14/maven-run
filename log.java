@@ -23,8 +23,8 @@ public class log {
 		driver1 = new ChromeDriver();
 
 		driver1.get("https://github.com/login");
-		driver1.findElement(By.xpath("//*[@id=\"login_field\"]")).sendKeys("mousafaisal987@gmail.com");
-		driver1.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("Mousa=99");
+		driver1.findElement(By.xpath("//*[@id=\"login_field\"]")).sendKeys("");
+		driver1.findElement(By.xpath("//*[@id=\"password\"]")).sendKeys("");
 		driver1.findElement(By.xpath("//*[@id=\"login\"]/div[4]/form/div/input[13]")).click();
 	}
 
